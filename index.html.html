@@ -1,0 +1,690 @@
+<html> 
+<head> 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+   <title> YOGO website </title>
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   </head>
+       
+ <!-- ICON SCOUT CDN -->
+ <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    
+       
+     <style>
+body{
+   background:#1a53d1;
+  font-family:'poppins', sans-serif; 
+  overflow-x:hidden; 
+ }
+ .navbar{
+  padding-top:25px;
+  }
+  navbar-brand{
+ color:#fff!important;
+ font-weight:800; 
+  letter-spacing:1px;
+  font-size:22px; 
+  } 
+   nav-link{
+   font-size:11px
+   margin-left:30px;
+   letter-spacing:0.5px; 
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0 0 0.5rem 0;
+    display: unset;
+   }
+   .nav-link.active{
+   color:#fff!important;
+   
+   padding-bottom:3px;
+   }
+   
+ 
+   .active1{
+      border-bottom:2px solid #fff;
+   }
+   .active:hover{
+     color:black;
+	 cursor:pointer;
+     border-bottom:2px solid #fff;
+   }   
+   .hero{
+   min-height:85vh; 
+   display:flex;
+   align-items:center;
+   color:white;
+   }
+   .hero h1{
+   font-size:52px;
+   font-weight:700;
+   line-height:1.2;
+   }
+   .hero p{
+    color:#dod9f5;
+	font-size:13px;
+	margin-top:25px;
+	max-width:350px;
+	line-height:1.6;
+	}
+   .btn-white{
+   background:#fff;
+   color:#1a53d1;
+   border-radius:5px;
+   padding:10px 22px;
+   font-size:11px;
+   font-weight:600;
+   border:none;
+   }
+   .btn-outline{
+   background:transparent;
+   color:#fff;
+   border:1.5px solid #fff;
+   border-radius:5px;
+   padding:9px 22px; 
+   font-size:11px;
+   font-weight:600;
+   margin-left:10px;
+   }
+   .hero-img{
+   max-width:100%;
+   height:auto;
+   }
+   @media(max-width:768px){
+      .hero h1{font-size:36px;}
+	  .hero-img{margin-top:30px; width:80%;}
+	  } 
+	  /* SERVICES SECTION */
+.services-section{
+  background: #fff;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.services-title{
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.services-subtitle{
+  font-size: 13px;
+  color: #888; 
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.service-card{
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* The blue active card */
+.service-card.active{
+  background: #1a53d1;
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(26,83,209,0.4);
+  margin-top: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  transform: translateY(-10px);
+}
+
+.icon-box{
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  font-size: 24px;
+  color: #555; 
+}
+
+.active-icon{
+  background: #fff;
+  border: none;
+  color: #1a53d1;
+}
+
+.service-card h5{
+  font-size: 20px;  
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* Hover effect */
+.service-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  background:#2a5bd7;
+  color:black; 
+}
+.service-card.active:hover{
+  transform: translateY(-15px);
+    
+ 
+} 
+   .feature{
+     display:flex;
+	 background:#fff; 
+     padding-top:80px;
+     padding-bottom:80px;
+     margin-top:0;
+     margin-bottom:0; 	 
+}
+
+  .negative h2{
+    font-size:30px;
+	font-weight:800;
+	color:#555;
+    line-height:1.4;
+  } 
+   .nagative p{ 
+     font-size:12px;
+	 color:#999;
+     margin:15px 0 25px 0; 
+   }
+   .btn-primary{  
+   border-color:#2a5bd7;
+   background:#2a5bd7;
+    color:#fff;
+	text-decoration:none; 
+   font-size:11px; 
+   font-weight:800; 
+   padding:8px 20px;
+   letter-spacing: 1px;  
+   border-radius:4px;  
+   box-shadow:0 4px 10px rgba(42, 91, 215, 0.3); 
+   } 
+   .btn-primary:hover{
+      background-color:#1a4bc7;
+	  	  border-color:#1a4bc7; 
+
+	  } 
+.explore{
+   display:flex;
+   background:#fff; 
+    padding-top:80px;
+     padding-bottom:80px;
+     margin-top:0;
+     margin-bottom:0; 
+}  
+  .now h2{
+   font-size:30px;
+	font-weight:800;
+	color:#555;
+    line-height:1.4; 
+  }
+   .now p{
+     font-size:12px;
+	 color:#999;
+     margin:15px 0 25px 0;  
+   }
+    .btn-primary{  
+   border-color:#2a5bd7;
+   background:#2a5bd7;
+    color:#fff;
+	text-decoration:none; 
+   font-size:11px; 
+   font-weight:800; 
+   padding:8px 20px;
+   letter-spacing: 1px;  
+   border-radius:4px;  
+   box-shadow:0 4px 10px rgba(42, 91, 215, 0.3); 
+   } 
+   .btn-primary:hover{
+      background-color:#1a4bc7;
+	  	  border-color:#1a4bc7; 
+
+	  } 
+	  
+	/* REVIEWS  */
+ .review{
+  background:#f8f9fa;
+  padding:80px 0;
+  padding-bottom: 100px; 
+  }
+  .testimonial-box{
+    background:#ffffff;
+    max-width: 700px;
+   margin:0 auto; 
+   margin-top:60px;
+   padding: 60px 30px 30px 30px;
+   border-radius:6px;
+   box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+   border:1px solid #eef2ff;
+   text-align:center;
+   position:relative; 
+  }
+  .testimonial-content h5{
+    font-size:16px;
+    font-weight:600;
+    color:#6c757d;
+    margin-bottom: 4px;
+	}
+ .testimonial-content small{
+	  font-size:11px;
+	  color:#2a5bd7;
+	  font-weight: 500;
+	  letter-spacing:0.5px;
+	   display:block;
+	   margin-bottom:15px;
+	   text-transform:uppercase;
+	  } 
+  .testimonial-content p{
+       font-size:13px;
+	  color:#999;
+	  line-height:1.6;
+	   display:block;
+	   max-width:450px;
+      margin:0 auto; 
+	  } 
+	.carousel-indicators{
+	  position:static;
+	  background:#7a8bd6;
+	  padding:8px 0;
+	  margin:0;
+	  margin-top:40px;
+	  border-radius:2px;
+	 justify-content:center; 
+	}  
+  .carousel-indicators   button{
+        width: 20px;
+		height:3px;
+		border-radius: 2px;
+		background:rgba(225,225,225,0.4)
+	    border:none;
+		margin:0 3px;
+		}
+	.carousel-indicators .active{
+	   background:#ffffff;
+	   }  
+	  
+	  .item2{
+        text-align:center;
+	    padding-top: 60px;
+		}
+	.item2  img{
+	   width: 85px;
+	   height: 85px;
+	   border-radius: 50%;
+	   margin:0 auto;
+	   display: block;
+	   margin-bottom:-40px;
+	   position: relative;
+	   z-index:2;
+	   }
+	.carousel-caption{
+	 position:static;
+	 max-width:700px;
+	 margin:0 auto;
+	 padding: 60px 30px 25px 30px;
+	 border-radius:5px;
+	 box-shadow:0.5px 20px rgba(0,0,0,0.05);
+	 color:#333;
+	 }
+	.carousel-caption h6{
+	   font-size:15px;
+	   font-weight:600;
+	   color:#666;
+	   }
+	  .carousel-caption small{
+	    color:#888;
+		font-size:11px;
+		display:block;
+		margin:5px 0 12px 0;
+		}
+		.carousel-caption p{
+		 color:#999;
+		 font-size:12px;
+		 }
+		 .carousel-indicators{
+		   position:static;
+		   background:#6f7fd3;
+		   margin:0;
+		   padding:10px;
+		   margin-top:40px;
+		   }
+	  
+	   
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	   
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+/* ========== FOOTER ========== */
+
+.footer {
+  padding: 20px;
+
+  text-align: center;
+
+  font-size: 13px;
+
+  color: white;
+
+  background: #3b49c1; 
+  background:linear-gradient(180deg, #3b5ac1 0%, #3e4dc0 100%);  
+}
+
+
+
+
+
+
+
+
+  .footer h2{
+   color:#ffffff;
+   font-size:26px;
+   font-weight:400;
+   margin-bottom:50px;
+   letter-spacing:0.5px;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== PHONE SCREEN ========== */
+
+@media (max-width: 800px) {
+
+  .header {
+    flex-direction: column;
+  }
+
+  .menu {
+    margin-top: 15px;
+  }
+
+  .menu a {
+    margin-left: 8px;
+
+    margin-right: 8px;
+  }
+
+  .banner {
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .banner h1 {
+    font-size: 35px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+  }
+
+  .boxes {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .row h2 {
+    margin-left: auto;
+
+    margin-right: auto;
+  }
+
+  .subscribe input {
+    width: 100%;
+
+    margin-bottom: 10px;
+  }
+
+  
+	  
+     </style> 
+   
+   <body>
+   <!--NAVBAR--> 
+<nav class="navbar navbar-expand-lg">
+  <div class="container">   
+     <img src="images/YOGO.png"  alt="YOGO" class="navbar-brand">          
+    <button class="navbar-toggler bg-light" type="button" data-bs-tggie="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">  
+        <li class="nav-item">
+           <a class="nav-link active active1" href="#">HOME</a>
+
+        </li>
+        <li class="nav-item">
+                     <a class="nav-link active "  href="#"> SERVICES</a>     
+        </li>
+         <li class="nav-item">
+                     <a class="nav-link active "  href="#"> PRICING</a>    
+        </li>  
+		 <li class="nav-item">
+                     <a class="nav-link active"  href="#">  ABOUT US</a>   
+        </li> 
+		<li class="nav-item">
+                     <a class="nav-link active" aria-current="" href="#"> CONTACT US </a>     
+        </li>
+      </ul>  
+	  </div> 
+    </div>  
+</nav> 
+    <!--HERO-->
+	<section class="hero"> 
+    <div class="container">
+	<div class="row align-items-center"> 
+	 <div class="col-lg-6">
+	 <h1> Let's Start The <br> Magic </h1>
+	  <p> YOGO helps people to learn new things without spnding too much money on unnecessary things </p> 
+	    <div class="mt-4">
+		<button class="btn-white"> JOIN FREE</button>
+	   <button class="btn-white"> EXPLORE MORE</button> 
+   </div>
+   </div> 
+      <div class="col-lg-6 text-center">             
+        <img src="images/love.png" alt="love" class="hero-img">   
+</div>
+</div>
+</div> 
+ </section> 		
+      <!-- SERVICES SECTION -->
+<section class="services-section py-5">
+  <div class="container text-center">
+    
+    <h2 class="services-title">We provide a wide range<br>of services</h2>
+    <p class="services-subtitle">Let's start ordering with YOGO app to save a lot of money today</p>
+
+    <div class="row mt-5 pt-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-box2 active-service">
+                <img src="./images/icon-1.png" alt="">
+				</div> 
+          <h5>Express Delivery</h5> 
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, rerum quidem?</p>
+                           <i class="uil uil-arrow-right"></i> 		   
+        </div>
+      </div>
+
+      <!-- Card 2 - Active -->
+      <div class="col-md-4">
+        <div class="service-card active">
+           <div class="service-box2 active-service">
+                <img src="./images/icon-2.png" alt="">				
+          </div>
+          <h5>Offer Around You</h5>
+		   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, rerum quidem?</p>
+                <i class="uil uil-arrow-right"></i> 
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="service-card">
+        <div class="service-box3">
+        <img src="./images/icon-3.png" alt="">
+	</div> 
+          <h5>Pocket Friendly</h5>
+                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, rerum quidem?</p> 
+                                <i class="uil uil-arrow-right"></i>  
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+          <section class="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 text-center">
+                    <img src="./images/feature.png" width="400px;">
+                </div>
+                <div class=" nagative col-md-5">  
+                    <h2>We always love to hear from<br> our customers</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Quaerat ipsum libero sunt?</p>
+                    <a  class="btn-primary"href="#">WATCH NOW</a>  
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+      <section class="explore">
+        <div class="container">
+            <div class="row">
+               
+                <div class=" now col-md-6">
+                    <h2>How does YOGO make <br> life better</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Quaerat ipsum libero sunt?</p>
+                    <a  class="btn-primary"href="#">EXPLORE NOW</a>
+                </div> 
+                <div class="col-md-6">
+                    <img src="./images/explore.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+    </section>
+                                      <!-- REVIEW -->
+    <section class="review">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active li" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="li" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="li" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner item1">
+                  <div class="carousel-item active item2">
+                    <img src="./images/testimonial-1.png" alt="...">
+                    <div class="carousel-caption ">
+                      <h6> Ruth Ayo</h6>
+                      <small>CEO & FOUNDER </small>
+                      <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Quaerat ipsum libero sunt?</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item item2">
+                    <img src="./images/testimonial-2.jpg"  alt="...">
+                    <div class="carousel-caption ">
+                        <h6> Matthew Ayo
+                        </h6>
+                        <small> CO CEO & FOUNDER </small>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Quaerat ipsum libero sunt?</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item item2">
+                    <img src="./images/testimonial-3.jpg"  alt="...">
+                    <div class="carousel-caption ">
+                        <h6>Esther Ayo </h6>
+                        <small>DESIGNER</small>
+                        <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Quaerat ipsum libero sunt?</p>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+        </div> 
+    </section>
+               
+                                    <!-- FOOTER -->
+
+    <section class="footer text-center">
+        <div class="container">
+            <h2>Subscribe To Our Newsletter</h2>
+            <form action="">
+                <input type="email" placeholder="Enter Your Email.." required>
+                <button type="submit">SUBSCRIBE</button>
+                <small>&copy;2022     mathayo </small>
+            </form>
+        </div>
+    </section>
+
+
+     	
+
+       
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
